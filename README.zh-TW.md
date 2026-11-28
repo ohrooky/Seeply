@@ -6,6 +6,8 @@
 
 [English](README.md) · 繁體中文
 
+![Seeply 一般視窗模式，顯示照片、上方工具列、下方縮圖列與簡易 EXIF 摘要](docs/screenshots/overview.png)
+
 ## 功能
 
 - **Lightbox**：暗底沉浸看圖，閒置後淡出控制列。
@@ -17,6 +19,27 @@
 - **檔案類型篩選**：可選 JPG／JPEG、PNG、BMP、DNG 等一般影像與 RAW 類型；未勾選的格式不加入瀏覽、縮圖與預載隊列。
 - **輕量瀏覽**：Finder 開檔、拖放、自然排序、縮圖列、縮圖總覽與多視窗。
 - **繁中與英文**：設定內即時切換；系統主要語言為繁中才預設繁中，其餘使用英文。
+
+## 畫面展示
+
+### Lightbox 與 Frameless
+
+| Lightbox | Frameless |
+| :---: | :---: |
+| ![Lightbox 模式，控制列已隱藏](docs/screenshots/lightbox.png) | ![Frameless 模式，上方工具列與下方縮圖列已隱藏](docs/screenshots/frameless.png) |
+| 暗底畫布，專注欣賞照片。 | 無標題列視窗，滑鼠移回邊緣時浮現控制列。 |
+
+### EXIF 與代表色
+
+查看相機、鏡頭與曝光資訊，同時顯示從照片中擷取的最多四個代表色。
+
+![Seeply 同時顯示照片資訊面板、代表色色票與簡易 EXIF 摘要](docs/screenshots/exif-palette.png)
+
+### 檔案類型篩選
+
+自行選擇加入瀏覽隊列的格式。圖中已勾選一般圖片類型，並排除 RAW 類型。
+
+<img src="docs/screenshots/file-types.png" alt="檔案類型設定，已勾選一般圖片格式並取消 RAW 格式" width="540">
 
 ## 建置與執行
 

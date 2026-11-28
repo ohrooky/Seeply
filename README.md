@@ -6,6 +6,8 @@ A minimal, native macOS image viewer focused on the viewing experience. Built wi
 
 English · [繁體中文](README.zh-TW.md)
 
+![Seeply in windowed mode, showing a photograph with the toolbar, filmstrip and quick EXIF summary](docs/screenshots/overview.png)
+
 ## Features
 
 - **Lightbox** — a dark, immersive canvas with controls that fade when idle.
@@ -17,6 +19,27 @@ English · [繁體中文](README.zh-TW.md)
 - **File type filters** — choose JPG/JPEG, PNG, BMP, DNG and other image/RAW groups. Excluded types stay out of the browsing, thumbnail and preload queues.
 - **Simple browsing** — Finder opening, drag and drop, natural ordering, filmstrip, contact sheet and multiple windows.
 - **English and Traditional Chinese** — switch immediately in Settings. The primary system language selects Traditional Chinese only when it is Traditional Chinese; otherwise English is used.
+
+## Screenshots
+
+### Lightbox and Frameless
+
+| Lightbox | Frameless |
+| :---: | :---: |
+| ![Lightbox mode with its controls hidden](docs/screenshots/lightbox.png) | ![Frameless mode with its toolbar and filmstrip hidden](docs/screenshots/frameless.png) |
+| A dark canvas for immersive viewing. | A borderless window with controls that return when you hover an edge. |
+
+### EXIF and color palette
+
+View camera, lens and exposure details alongside up to four representative colors from the photograph.
+
+![Seeply showing the Photo Info panel, representative color palette and quick EXIF summary](docs/screenshots/exif-palette.png)
+
+### File type filters
+
+Choose which formats enter the browsing queue. Here, common image types are enabled while RAW types are excluded.
+
+<img src="docs/screenshots/file-types.png" alt="File Types settings with common image formats selected and RAW formats unchecked" width="540">
 
 ## Build and run
 
